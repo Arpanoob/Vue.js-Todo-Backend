@@ -1,8 +1,11 @@
 const express = require("express");
+var cors = require("cors");
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(cors());
 const task = require("./routes/task");
 const { setupDB } = require("./models/task");
 app.use("/api/task/", task);
