@@ -1,6 +1,5 @@
-https://vue-js-todo-backend.onrender.com
 
-Ideployed backend at Render
+I deployed backend at Render
 https://vue-js-todo-backend.onrender.com/
 routes-
 
